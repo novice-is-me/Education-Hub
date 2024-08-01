@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden !important;
 }
 
 .bg-nav{
@@ -11,9 +14,9 @@
 
 .text-color,
 .nav-link{
-    color: #FFCC00; 
+    color: #FFCC00;  
 }
-
+ 
 .text-color:hover,
 .text-color:focus,
 .nav-link.active,
@@ -33,6 +36,10 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
 }
 
 .title-text{
@@ -85,6 +92,10 @@
     text-transform: uppercase;
 }
 
+.carousel-card{
+    width: 50%;
+}
+
 /* Tablet */
 @media screen and (max-width: 770px){
     .title-text{
@@ -98,6 +109,10 @@
     .intro-card{
         height: auto;
     }
+
+    .carousel-card{
+        width: 90%;
+    }
 }
 
 /* Mobile */
@@ -110,4 +125,13 @@
     .sub-text{
         display: none;
     }
+
+    .featured-card{
+        height: 100%;
+    }
+
+    .mission-card{
+        display: none !important;
+    }
+
 }

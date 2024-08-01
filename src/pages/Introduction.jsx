@@ -16,8 +16,8 @@ const Introduction = () => {
 
                     const IconComponent = icons[i];  
                     return (
-                            <Col className='col-12 col-md-3 p-0 intro-card' key={i}>
-                                <div className={` h-100 p-5 text-center ${i % 2 === 0 ? 'bg-black' : 'bg-yellow'}
+                            <Col className='col-12 col-md-3 intro-card' key={i}>
+                                <div className={`h-100 p-5 text-center ${i % 2 === 0 ? 'bg-black' : 'bg-yellow'}
                                 d-flex  flex-column justify-content-center align-items-center`}>
                                     <IconComponent size={50} color={iconColor}/>
                                     <div style={{color: textColor}}>

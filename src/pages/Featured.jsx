@@ -11,7 +11,7 @@ const Featured = () => {
         <div className='d-flex p-5 gap-3 flex-wrap justify-content-center'>
             {featured.map((course, i) => {
                 return (
-                    <FeaturedCard img={course.img} title={course.title} text={course.text}/>
+                    <FeaturedCard key={i} img={course.img} title={course.title} text={course.text}/>
                 )
             })} 
         </div>

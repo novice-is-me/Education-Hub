@@ -4,8 +4,8 @@ import { Container, Navbar, Nav, NavDropdown} from 'react-bootstrap'
 const NavbarComponent = () => {
   return (
     <>
-    <Navbar expand="lg" className="bg-nav py-4"> 
-      <Container>
+    <Navbar expand="lg" className="bg-nav py-4 pe-0"> 
+      <Container className=' pe-0'> 
         <Navbar.Brand href="#home" className='text-color'>SCHOLAR ZONE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav"> 

@@ -1,9 +1,7 @@
 import featured1 from '../assets/featured1.jpg'
 import featured2 from '../assets/featured2.jpg'
 import featured3 from '../assets/featured3.jpg'
-import category1 from '../assets/category1.jpg'
-import category2 from '../assets/category2.jpg'
-import category3 from '../assets/category3.jpg'
+
 
 export const about = [
     {
@@ -42,20 +40,24 @@ export const featured = [
     }
 ]
 
-export const categories = [
+export const resources = [
     {
-        img: category2,
-        title: "CISCO Networking",
-        text: "Learn to configure and manage Cisco networks for efficient and secure communication"
-    }, 
-    {
-        img: category1,
-        title: "Machine Learning",
-        text: "Create algorithms that enable computers to learn from data and make predictions."
-    }, 
-    {
-        img: category3,
+        title: "Web Development",
+        text: ["W3Schools ", "MDN Web Docs", "freeCodeCamp", "Codecademy ", "Coursera"]
+    },{
+        title: "Data Science",
+        text: ["Kaggle", "DataCamp", "Towards Data Science", "Analytics Vidhya", "KDnuggets"]
+    },{
+        title: "Graphic Design",
+        text: ["Adobe Creative Cloud", "Canva", "Behance", "Dribbble", "Designspiration"]
+    },{
+        title: "Programming",
+        text: ["GitHub", "Stack Overflow", "GeeksforGeeks", "LeetCode", "HackerRank"]
+    },{
+        title: "Networking",
+        text: ["Cisco Networking Academy", "CompTIA", "Juniper Networks", "Udemy", "Pluralsight"]
+    },{
         title: "Robotics",
-        text: "Master the design and programming of robots to automate tasks and solve problems."
-    }, 
+        text: ["RobotShop", "Robotics Business Review", "Robotics Online", "Robotics Trends", "IEEE Robotics and Automation Society"]
+    }
 ]
