@@ -14,7 +14,7 @@ const Categories = () => {
                     <Carousel.Item interval={1000}>
                         <img
                         className="d-block w-100"
-                        src={category1}
+                        src={category2}
                         alt="First slide"
                         />
                         <Carousel.Caption>
@@ -25,7 +25,7 @@ const Categories = () => {
                     <Carousel.Item interval={500}>
                         <img
                         className="d-block w-100"
-                        src={category2}
+                        src={category1}
                         alt="Second slide"
                         />
                         <Carousel.Caption>
