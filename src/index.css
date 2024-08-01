@@ -79,6 +79,7 @@ body{
 
 .intro-card{
     height: 400px;
+    padding: 0;
 }
 
 .featured-card{
